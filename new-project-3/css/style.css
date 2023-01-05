@@ -1,0 +1,426 @@
+.list-line a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.list-line i{
+ color: red;
+}
+
+.bord{
+    border-bottom: 1px solid #ebf0f5;
+    padding-bottom: 14px;
+}
+.top-nav-right ul li{
+        float: left;
+        padding-left: 10px;
+        list-style: none;
+        
+}
+
+.top-nav-right ul li a{
+    text-decoration: none;
+        
+        color: black;
+}
+
+.nav_bar ul li{
+    float: left;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.rev{
+    flex-direction: row-reverse !important;
+}
+
+.colr{
+    background-color: #ffffff !important;
+}
+
+.orng{
+    background-color: orangered;
+    color: white;
+
+}
+
+.orng-hov{
+    padding: 0px;
+}
+
+.imgg{
+    background-image: url(../images/Untitled-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.hero-txt{
+    text-align: center;
+    margin-top: 93px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.banr-cls{
+    text-align: center;
+
+}
+
+.butn{
+    text-align: center;
+}
+
+.red{
+    --bs-btn-border-color: #de0000 !important;
+    color: red;
+}
+
+.red:hover{
+    color: white;
+}
+
+.deco{
+    background-color: rgb(0 191 255 / 63%);
+    height: 161px;
+    width: 250px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.dec{
+    background-color: #5f7ff5d9;
+    height: 161px;
+    width: 261px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.decoo{
+    background-color: #8e76dec7;
+    height: 161px;
+    width: 259px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.head{
+    font-size: 16px;
+    color: white;
+}
+
+.hea{
+    color: white;
+    padding-top: 15px;
+    font-size: 9px;
+}
+
+.foot{
+    color: white;
+}
+
+.styl{
+    justify-content: center;
+    position: absolute;
+    bottom: -39px;
+    right: 0;
+    left: 0;
+}
+
+.tp{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.hero-txtt{
+    text-align: center;
+    font-size: 19px;
+    margin: 0;
+    position: relative;
+}
+
+.Medic{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.Medical{
+    font-size: 10px;
+    text-align: center;
+}
+
+.icon{
+    font-size: 34px;
+}
+
+.hero-txtt::after{
+    content: "";
+    height: 3px;
+    width: 62px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 33px;
+    margin: 0 auto;
+    background-color: #1fc6aa;
+}
+
+.about{
+    width: calc(100% / 2);
+    float: left;
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+
+.btn-inf{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: white;
+    background-color: orange !important;
+}
+
+.ex-team{
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+}
+
+.ex-team::after{
+    content: "";
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+    margin: 0 auto;
+    background-color: #1fc6aa;
+}
+.userHolder {
+    margin-bottom: 32px;
+}
+.user_pic {
+    width: 44px;
+    height: 44px;
+    float: left;
+    margin-right: 17px;
+    background-color: #404d5f;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.user_pic  img {
+    max-width: 100%;
+    
+}
+
+.user_Name {
+    width: calc(100% - 61px);
+    float: left;
+    
+
+}
+
+.user_Name h1{
+    font-size: 21px;
+}
+
+.user_Name h5{
+    font-weight: 100;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.btn-orng{
+    color: white;
+    background-color: #fe824c;
+    border-color: #fe824c;
+    margin-left: 39px;
+}
+
+.Surgen-details h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0186d5;
+}
+.Surgen-details h5{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.detail{
+    padding-top: 77px;
+    padding-left: 18px;
+}
+
+.social_media ul li{
+    float: left;
+    padding: 5px 9px 6px;
+    list-style: none;
+    border: 1px solid #d0d5e0;
+}
+
+.social_media ul li a{
+    text-decoration: none;
+    color: #828fa8;
+}
+
+.social_media{
+    cursor: pointer;
+}
+
+.Surgen-details h5{
+    position: relative;
+}
+
+.Surgen-details h5::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 80px;
+    left: 0;
+    bottom: -11px;
+    margin: 0 auto;
+    background-color: #1fc6aa;
+}
+.chat{
+font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.chat::after{
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -11px;
+    position: absolute;
+    height: 1px;
+    width: 80px;
+    background-color: #1fc6aa;
+}
+
+.btn-inf{
+    width: 150px; 
+    margin: 0 auto; 
+    margin-top: 35px; 
+    color: white; 
+    background-color: orange !important;
+    border-radius: 0;
+}
+
+.variety h5{
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+}
+
+.variety h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+  color: white;
+  position: relative;
+}
+
+.variety h1::after{
+    content: "";
+    right: 0;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    width: 87px;
+    margin: 0 auto;
+    background-color: #de0000;
+    bottom: -11px;
+}
+
+.general_txt h1{
+    font-size: 19px;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.pad-lef{
+    border: 1px solid white;
+    background-color: white;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+.white_hov{
+    color: white;
+}
+
+.white_hov:hover{
+    background-color: white !important;
+    color: #0385d2 !important;
+}
+.white_hov:active{
+    color: #0385d2 ;
+}
+
+.new-buttn{
+    background-color: #fe824c;
+    border-radius: 0;
+    color: white;
+    margin-top: 20px;
+}
+
+.chat_box{
+    border: 1px solid #57beee;
+    color: white;
+    background-color:#57beee ;
+    padding: 18px 45px 19px;
+    position: relative;
+}
+
+.chat_box::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 0px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 25px solid #57beee;
+    border-bottom: 3px solid transparent;
+    right: 82%;
+    bottom: -21px;
+}
+
+.usrHolder{
+    margin-top: 38px;
+}
+
+.usrHolder a{
+    text-decoration: none;
+    color: #b1bbca;
+}
+
+.appointment-book{
+    margin-top: 48px;
+}
+
+.appointment-book h1{
+    font-size: 22px;
+    color: white;
+}
+
+.appointment-book p{
+    color: white;
+}
+
+.app-orng{
+    background-color: white !important;
+    color: #fe824c !important;
+    border-radius: 0;
+    
+}
